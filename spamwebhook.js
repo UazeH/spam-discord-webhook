@@ -1,4 +1,3 @@
-const { Webhook } = require('discord-webhook-node');
 const request = require('request');
 const wait = require('await-timeout');
 const config = require("./config.json")
