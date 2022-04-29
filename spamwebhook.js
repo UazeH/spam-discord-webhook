@@ -11,7 +11,7 @@ var message = prompt('Enter Message : ');
 var totalspam = prompt('Enter Total of Message : ');
 var delay = prompt('Input delay message (normal : 700) : ');
 
-async function run() {
+async function webhookspam() {
 
 	for (let a = 0; a < totalspam; a++) {
 		request({
@@ -33,4 +33,4 @@ async function run() {
 	}
 }
 
-run();
+webhookspam();
